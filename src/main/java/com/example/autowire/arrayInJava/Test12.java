@@ -3,9 +3,7 @@ package com.example.autowire.arrayInJava;
 import java.util.Arrays;
 
 public class Test12 {
-
     public static void main(String[] args) {
-
 
         int[] ar = {0, 0, 1, 0, 3, 0, 5, 0, 6};
         int[] store = new int[ar.length];

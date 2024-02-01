@@ -1,0 +1,64 @@
+https://www.w3resource.com/java-exercises/array/index.php
+37.
+----------------
+44. Write a Java program to count the number of possible triangles from a given unsorted array of positive integers.
+Note: The triangle inequality states that the sum of the lengths of any two sides of a triangle must
+be greater than or equal to the length of the third side.
+----------------
+
+54. Write a Java program to check if a given array contains a subarray with 0 sum.
+
+Example:
+Input :
+nums1= { 1, 2, -2, 3, 4, 5, 6 }
+nums2 = { 1, 2, 3, 4, 5, 6 }
+nums3 = { 1, 2, -3, 4, 5, 6 }
+Output:
+Does the said array contain a subarray with 0 sum: true
+Does the said array contain a subarray with 0 sum: false
+Does the said array contain a subarray with 0 sum: true
+
+----------------
+54.
+55.
+56.
+57.
+
+58. Given two sorted arrays A and B of size p and q, write a Java program to merge elements of A with B by maintaining the sorted order i.e. fill A with first p smallest elements and fill B with remaining elements.
+
+Example:
+Input :
+int[] A = { 1, 5, 6, 7, 8, 10 }
+int[] B = { 2, 4, 9 }
+Output:
+Sorted Arrays:
+A: [1, 2, 4, 5, 6, 7]
+B: [8, 9, 10]
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

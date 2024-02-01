@@ -10,7 +10,6 @@ public class Test15 {
      */
     public static void main(String[] args) {
 
-
         int[] values = {1,2,3,4,8,9,18};
 
         HashSet<Integer> hashSet = new HashSet<>();
@@ -29,6 +28,8 @@ public class Test15 {
                 while (hashSet.contains(no)) {
                     no++; // 1-2-3-4 final = 4
                 }
+                ////------------ 5 - 1 = 4
+                ///              5 - 1 = 4 => longNumber!!
                 //0 < 3
                 // 4 - 1 IndexValue = 2
                 // 11 - 9 IndexValue = 2

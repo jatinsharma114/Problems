@@ -1,5 +1,6 @@
 package com.example.autowire.arrayInJava;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Test24 {
@@ -8,19 +9,17 @@ public class Test24 {
      * In the sorted array the value of the first element should be maximum,
      * the second value should be a minimum, third should be the second maximum,
      * the fourth should be the second minimum and so on.
-     *
      */
 
     public static void main(String[] args) {
 
-        int ar[] = {1,2,9,10};
+        //Make sure it is sorted Array.!!
+        int[] ar = {1,2,9,10};
         int[] temp = new int[ar.length];
 
         boolean button = true;
         int aageSay = 0;
         int picheSay = ar.length -1;
-
-
         for(int i =0 ; i < ar.length; i++) {
 
             if(button) {
@@ -39,8 +38,7 @@ public class Test24 {
 
 
 
+
+
     }
-
-
-
 }
