@@ -13,9 +13,24 @@ public class Test3 {
 
         int[] my_array = {25,32, 12,43,11, 4, 9};
         int remove = 11;
+//        int remove = 101;
 
-        int[] newArray = new int[my_array.length -1];
+        //wrong What if value is not presnt like in place of the 11 there is 101
+        //correcting :
+
+        int count = 0;
+        for(int i : my_array) {
+            if(remove != i) {
+                count++;
+            }
+        }
+
+//      int[] newArray = new int[my_array.length -1];
+
+        int[] newArray = new int[count];
+
         int i =0;
+
         for (int element : my_array) {
             if (element ==  remove) {
                 continue;

@@ -7,6 +7,7 @@ public class Test7 {
 
         String s1 = "cba";
         char[] charArray = s1.toCharArray();
+
         for (int i =0; i< s1.length(); i++) {
 
             for (int j = i+1; j < s1.length(); j++) {

@@ -10,6 +10,7 @@ public class Test3 {
         // indexOf = -1 if no char is present in the given string
         // If present it will retunr the first occurance of the Index value!!!
         String s1 = "happy";
+
         char[] charArray = s1.toCharArray();
 
         String store = "";
