@@ -13,7 +13,7 @@ public class Test20 {
         int[] ar = {97, 7, 12, 9, 8, 3};
 
         int max = ar[ar.length-1];
-        System.out.print(max);
+        System.out.println("+++ " + max);
 
         // Index -------------- ZERO = 0
         for (int i = ar.length-2; i >=0 ; i--) {

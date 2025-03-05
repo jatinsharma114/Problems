@@ -4,10 +4,8 @@ public class Test1 {
 
     public static void main(String[] args) {
 
-
         //32 - 97a - 65A = 32
         String s = 'T' + "".toUpperCase();
-
 
         String s1 = "hello jatin";
         char[] charArray = s1.toCharArray();

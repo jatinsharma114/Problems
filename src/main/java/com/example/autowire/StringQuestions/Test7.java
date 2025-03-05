@@ -26,6 +26,26 @@ public class Test7 {
 
 
 
+        String name = "DeepaK"; // 6 - index 5 tK --> length - 1 => 5
+        String save = "";
+        // 5 4 3 2 1
+        // 4
+
+        /**
+         * Upto Go Zeroth Index::
+         * 5 > 0
+         * 4 > 0
+         *
+         *
+         */
+        for (int i = name.length()-1;  i >= 0  ; i--) {
+            save = save + name.charAt(i);
+        }
+        System.out.println("save : " + save);
+
+
+
+
 
     }
 }

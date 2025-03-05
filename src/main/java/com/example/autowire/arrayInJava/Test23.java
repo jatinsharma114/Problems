@@ -12,11 +12,10 @@ public class Test23 {
     public static void main(String[] args) {
 
 
-        int[] ar = {-4, 8, 6, -5, 6, -2, 1, 2, 3, -11};
+        int[] ar = {3,2,1};
 //
 //        int[] ar = {5,-1,2};
         int temp = 0;
-
         for (int i = 0; i < ar.length; i++) {
             for (int j = i+1; j < ar.length; j++) {
 
@@ -25,7 +24,6 @@ public class Test23 {
                     ar[i] = ar[j];
                     ar[j] = temp;
                 }
-
             }
         }
 

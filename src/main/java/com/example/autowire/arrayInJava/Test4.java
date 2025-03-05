@@ -30,5 +30,13 @@ public class Test4 {
         int min = values[values.length - 1];
         System.out.println(min);
 
+        // package java.util;
+        int[] maxMin = {10, 5 ,17};
+        Arrays.sort(maxMin);
+        System.out.println("Min : " + maxMin[0]);
+        System.out.println("Max : " + maxMin[maxMin.length-1]);
+
+
+
     }
 }
