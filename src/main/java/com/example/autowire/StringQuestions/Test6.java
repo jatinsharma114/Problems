@@ -35,20 +35,28 @@ public class Test6 {
 //        System.out.println(sb.toString());
 
 
+        /**
+         * StringBuilder sb = new StringBuilder("Hello World");
+         *     sb.indexOf("World"));  // Output: 6 Index !!!
+         *     sb.indexOf("J"));   // Output: -1 (Not found)
+         */
 
+        String s2 = "aabb";
         StringBuilder sb = new StringBuilder();
 
-        for (char ch : s1.toCharArray()) {
-
-            if(sb.indexOf(String.valueOf(ch)) == -1) {
-                sb.append(ch);
+        for (char atChar : s2.toCharArray()) {
+            String s = String.valueOf(atChar);
+            if(sb.indexOf(s) == -1) {
+                sb.append(atChar);
             }
         }
-
         System.out.println(sb.toString());
 
 
 
+        /** when we need to add ???
+         * Jab : availble nhi ho
+         */
 
 
 
